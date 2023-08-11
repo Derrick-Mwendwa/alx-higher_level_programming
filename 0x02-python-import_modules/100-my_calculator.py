@@ -17,4 +17,4 @@ if __name__ == "__main__":
     a = int(sys.argv[1])
     b = int(sys.argv[3])
 
-    print(f"{a} {op} {b} = {operators[op](a, b)}")
+    print("{} {} {} = {}".format(a, op, b, operators[op](a, b)))
