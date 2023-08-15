@@ -49,7 +49,7 @@ int is_palindrome(listint_t **head)
 		temp = temp->next;
 		rev = rev->next;
 	}
-	
+
 	reverse(&x);
 
 	return (1);
