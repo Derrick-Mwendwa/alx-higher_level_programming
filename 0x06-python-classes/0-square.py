@@ -1,4 +1,11 @@
 #!/usr/bin/python3
 
 class Square:
-    pass
+    """
+    This class represents a square.
+
+    Attributes:
+        None
+    """
+    def __init__(self):
+        pass
